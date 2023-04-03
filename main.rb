@@ -6,10 +6,11 @@ require './Game'
 
 # Main Thread:
 
-bill = Player.new('Bill')
+# bill = Player.new('Bill')
 
-puts bill.name
-puts bill.lives
+# puts bill.name
+# puts bill.lives
 
-Game.start_game
+# Game.start_game
 
+Game.populate_players
