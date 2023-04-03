@@ -1,9 +1,8 @@
 # Main entrypoint for application
 
 # Require in classes:
-require './Player'
 require './Game'
 
 # Main Thread:
-
-Game.populate_players
+first = Game.new
+pp first.run_game
